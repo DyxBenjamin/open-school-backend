@@ -5,7 +5,8 @@
   "scripts": {
     "tsc": "tsc",
     "start": "node ./build/index.js",
-    "dev": "ts-node-dev ./src/index.ts"
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc --project ."
   },
   "engines": {
     "node": ">=16.15.0"
