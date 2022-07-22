@@ -25,6 +25,7 @@ jobs:
         run: |
           npm install
           npm run tsc --if-present
+          npm run copyDeps --if-present
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp

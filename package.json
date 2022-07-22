@@ -6,7 +6,8 @@
     "tsc": "tsc",
     "start": "node ./build/index.js",
     "dev": "ts-node-dev ./src/index.ts",
-    "build": "tsc --project ."
+    "build": "tsc --project .",
+    "copyDeps": "cp -r node_modules/ ./build/node_modules/"
   },
   "engines": {
     "node": ">=16.15.0"
