@@ -5,13 +5,14 @@
   "scripts": {
     "tsc": "tsc",
     "start": "node ./build/index.js",
-    "dev": "ts-node-dev ./src/index.ts"
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc --project ."
   },
   "engines": {
     "node": ">=16.15.0"
   },
   "dependencies": {
-    "express": "4.16.1",
+    "express": "^4.16.1",
     "mssql": "8.1.2"
   },
   "devDependencies": {
