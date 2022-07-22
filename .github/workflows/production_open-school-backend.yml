@@ -33,4 +33,4 @@ jobs:
           app-name: 'open-school-backend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAA504449E0C41CF838B327D0DE3E9E2 }}
-          package: ./build
+          package: .
